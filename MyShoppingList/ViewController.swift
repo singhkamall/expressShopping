@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MyShoppingList
 //
-//  Created by Student on 2017-12-06.
+//  Created by Kamalpreet Singh (300976062) and Mehmet Fatih Inan (300966544) on 2017-12-06.
 //  Copyright © 2017 Centennial College. All rights reserved.
 //
 
@@ -37,34 +37,37 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-
     
+    //  Created by Kamalpreet Singh (300976062) and Mehmet Fatih Inan (300966544) on 2017-12-06.
     @IBAction func step1_click(_ sender: UIStepper) {
         lblCount1.text = Int(sender.value).description
     }
     
+    //  Created by Kamalpreet Singh (300976062) and Mehmet Fatih Inan (300966544) on 2017-12-06.
     @IBAction func step2_click(_ sender: UIStepper) {
         lblCount2.text = Int(sender.value).description
     }
     
+    //  Created by Kamalpreet Singh (300976062) and Mehmet Fatih Inan (300966544) on 2017-12-06.
     @IBAction func step3_click(_ sender: UIStepper) {
         lblCount3.text = Int(sender.value).description
     }
     
+    //  Created by Kamalpreet Singh (300976062) and Mehmet Fatih Inan (300966544) on 2017-12-06.
     @IBAction func step4_click(_ sender: UIStepper) {
         lblCount4.text = Int(sender.value).description
     }
     
+    //  Created by Kamalpreet Singh (300976062) and Mehmet Fatih Inan (300966544) on 2017-12-06.
     @IBAction func step5_click(_ sender: UIStepper) {
         lblCount5.text = Int(sender.value).description
     }
     
-    
+    //  Created by Kamalpreet Singh (300976062) and Mehmet Fatih Inan (300966544) on 2017-12-06.
     @IBAction func cancel_click(_ sender: UIButton) {
+        
+        // Reset all values to default
+        
         txtListName.text = "Toolkit"
         txtItem1.text = ""
         txtItem2.text = ""
