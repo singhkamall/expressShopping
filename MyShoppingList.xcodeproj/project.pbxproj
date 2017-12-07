@@ -12,6 +12,7 @@
 		3FA48BA01FD8BE0F00592056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48B9E1FD8BE0F00592056 /* Main.storyboard */; };
 		3FA48BA21FD8BE0F00592056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48BA11FD8BE0F00592056 /* Assets.xcassets */; };
 		3FA48BA51FD8BE0F00592056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA48BA31FD8BE0F00592056 /* LaunchScreen.storyboard */; };
+		3FA48BAD1FD8C5F700592056 /* ShoppingListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA48BAC1FD8C5F700592056 /* ShoppingListViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3FA48BA11FD8BE0F00592056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA48BA41FD8BE0F00592056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FA48BA61FD8BE0F00592056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA48BAC1FD8C5F700592056 /* ShoppingListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				3FA48B9A1FD8BE0F00592056 /* AppDelegate.swift */,
 				3FA48B9C1FD8BE0F00592056 /* ViewController.swift */,
 				3FA48B9E1FD8BE0F00592056 /* Main.storyboard */,
+				3FA48BAC1FD8C5F700592056 /* ShoppingListViewCell.swift */,
 				3FA48BA11FD8BE0F00592056 /* Assets.xcassets */,
 				3FA48BA31FD8BE0F00592056 /* LaunchScreen.storyboard */,
 				3FA48BA61FD8BE0F00592056 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA48BAD1FD8C5F700592056 /* ShoppingListViewCell.swift in Sources */,
 				3FA48B9D1FD8BE0F00592056 /* ViewController.swift in Sources */,
 				3FA48B9B1FD8BE0F00592056 /* AppDelegate.swift in Sources */,
 			);
